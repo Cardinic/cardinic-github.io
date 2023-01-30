@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Cardinali Nicolas</title>
+    <link href="Styles.CSS" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="favicon.png" >
+</head>
+
+<body>
+  <!-- Barra de Navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+             <a class="nav-link" href="#Antecedentes Academicos">Antecedentes Academicos</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="#Experiencia Laboral">Experiencia Laboral</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="#Datos Personales">Datos Personales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Aptitudes y Conocimientos">Aptitudes y Conocimientos</a>
+            </li>
+         </ul> 
+        </div>
+     </div>
+  </nav>
+  
+  <!-- Encabezado con foto y título -->
+  <div class="container text-center">
+      <div class="row">
+      <div class="col-4 col-sm-2 my-2">
+        <img class="img-fluid" src="Foto CV.png" alt="Fotografía Cardinali, Pablo Nicolas">
+      </div>
+      <div class="col-8 col-sm-10 bg-secondary text-white py-3 my-2 rounded">
+        <h1 class="py-3">Curriculum vitae</h1>
+        <h3>NICOLAS CARDINALI</h3>
+      </div>
+      </div>
+  </div>
+
+<!-- Cuerpo página -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 my-2">
+        <!-- Sección de Datos Personales -->
+        <button id="info_personal" class="card text-bg-secondary mb-3"style="max-width: 25rem;">MOSTRAR DATOS PERSONALES</button>
+        <div id="Tarjeta_datos" class="card text-bg-secondary mb-3" style="max-width: 25rem;">
+          <div id="Datos_Personales" class="card-header">DATOS PERSONALES</div>
+          <div class="card-body">
+            <p id="DNI" class="card-text">DNI</p>
+            <p id="EDAD" class="card-text">EDAD</p>
+            <p id="DIRECCION" class="card-text">DIRECCION</p>
+            <p id="CORREO" class="card-text">CORREO</p>
+            <p id="ESTADO_CIVIL" class="card-text">ESTADO CIVIL</p>
+          </div>
+          <button id="Cerrar_info" class="card text-bg-secondary mb-3"style="max-width: 25rem;">OCULTAR DATOS</button>
+        </div>
+
+        <!-- Perfil / Referencias / Formulario Contacto -->
+        <div class="card text-bg-secondary mb-3" style="max-width: 25rem;">
+          <div class="card-header">PERFIL PERSONAL / PROFESIONAL</div>
+          <div class="card-body">
+            <p class="card-text">Proactivo, con motivación en aprendizaje y capacitación. Aptitud para trabajos en equipo, iniciativa.</p>
+          </div>
+        </div>
+        <div class="card text-bg-secondary mb-3" style="max-width: 25rem;">
+          <div class="card-header">REFERENCIAS</div>
+          <div class="card-body">
+            <li class="card-text">Castelli, José Tomás: Director Instituto CEPI. 0358 155480737</li>
+            <li class="card-text">Salvai, Fabian: Encargado Distribuidora Salvai. 0358 154196994</li>
+          </div>
+        </div>
+        <form action="" method="get" >
+          <div class="mb-3">
+            <p id="Comentario Boton">Para más información, deje sus datos para contactarle</p>
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+           </div>
+          <div class="mb-3">
+            <label for="exampleInputNombreyApellido" class="form-label">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="exampleInputNombreyApellido" required>
+          </div>
+          <div class="mb-3 form-check">
+            </div>
+          <button id="Enviar datos" type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      <!-- Estudios / Experiencia / Conocimientos -->
+      <div class="col-sm-8">
+        <section class=" text-bg-light p-3 border border-dark my-2 rounded">
+            <h3 id="Antecedentes Academicos" class="sección">Educacion</h3>
+                <h4>Instituto San Francisco de Asis 2006 - 2011 </h4>
+                <p>Secundario Completo con Orientación en Economía y Gestión de las Organizaciones. Promedio General 9,10</p>
+                <h4>Universidad Nacional Río Cuarto 2012 - Actualmente</h4>
+                <p>Carrera Contador Público, 70% carrera finalizada, cursado finalizado. Promedio 7,85</p>
+          </section>
+          <section class=" text-bg-light p-3 border border-dark my-2 rounded">
+            <h3 id="Experiencia Laboral" class="sección">Experiencia Laboral</h3>
+                <h4>Marinelli S.A. Área Contable - 2011</h4>
+                <p>Pasantía en área de contabilidad, encargado de registros auxiliares y archivos</p>
+                <h4>Instituto CEPI. Administración y Docencia. Marzo 2015 – Septiembre 2018 </h4>
+                <p>Encargado de tareas de caja, atención al público, administración y apoyo contable. Dictado de clases en el área informática.</p>
+                <h4>Asociación Civil de Aprendizaje y Capacitación Castelli / Lloveras Río IV. Docente. Marzo 2016 – Septiembre 2018 </h4>
+                <p>Responsable del dictado de cursos “Operador de PC” en programas de Formación Profesional a cargo del Ministerio de Trabajo, Empleo y Seguridad Social de la Nación</p>
+                <h4>Distribuidora Hugo Salvai. Administración. Julio 2019 – Marzo 2022 </h4>
+                <p>Encargado de depósito, control y gestión de Stock. Control de compras y ventas. Tareas de caja y atención al público</p>
+          </section> 
+          <section class=" text-bg-light p-3 border border-dark my-2 rounded">
+                <h3 id="Aptitudes y Conocimientos" class="sección">Aptitudes y Conocimientos</h3>
+                <ul>
+                    <li>Microsoft Word, Excel y PowerPoint Avanzado</li>
+                    <li>Internet Avanzado</li>
+                    <li>Inglés Básico</li>
+                </ul> 
+          </section>
+      </div>
+      </div>
+  </div>
+  
+<button id="ir_al_cielo" class="btn btn-primary">Ir al cielo</button>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="js.js"></script>
+</body>
+</html>
